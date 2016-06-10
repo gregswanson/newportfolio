@@ -623,6 +623,25 @@ nav#footer p{
 	color: #ffffff;
 }
 
+/* Modal */
+
+.modalImage {
+	max-width: 500px;
+	margin-bottom: 20px;
+
+}
+
+.modalText {
+	color: #333;
+	text-align: left;
+
+}
+
+.modal-header {
+	border-bottom: none;
+}
+
+
 @media only screen and (max-width: 1200px) {
     .portfolio-item .hover-bg {
         height: 213px;

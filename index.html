@@ -158,138 +158,7 @@
                 <div class="clearfix"></div>
             </div>
 
-            <div id="lightbox" class="row">
-
-<!-- <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Hangman</h4>
-                                    <small>RCB</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/01.jpg" class="img-responsive" alt="Hangman">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 coding graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>RPG Game</h4>
-                                    <small>RCB</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/02.jpg" class="img-responsive" alt="RPG Game">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Trivia Game</h4>
-                                    <small>RCB</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/03.jpg" class="img-responsive" alt="Trivia Game">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Rutgers Info Widget</h4>
-                                    <small>RCB</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/04.jpg" class="img-responsive" alt="Rutgers Info Widget">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Rock Paper Scissors</h4>
-                                    <small>RCB</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/05.jpg" class="img-responsive" alt="Rock Paper Scissors">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 graphic">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Coming Soon</h4>
-                                    <small>***</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/06.jpg" class="img-responsive" alt="Coming Soon">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 coding web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Coming Soon</h4>
-                                    <small>***</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/06.jpg" class="img-responsive" alt="Coming Soon">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Coming Soon</h4>
-                                    <small>***</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/06.jpg" class="img-responsive" alt="Coming Soon">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>-->
-        </div> 
+            <div id="lightbox" class="row"></div> 
     </div>
 
     <!-- Contact Section
@@ -352,6 +221,36 @@
         </div>
     </nav>
 
+    <!-- Modal
+        ============================================= -->
+
+        <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-body">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+
+                    <div class="modal-body">
+                        <div class="row">
+                        
+                            <div class="col-xs-8"> 
+                                <div id="modalImages"></div>
+                            </div>
+                                
+                            <div class="col-xs-4"> 
+                                <div id="modalTitle"></div>
+                                <div id="modalDes"></div>
+                                <div id="modalTech"></div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -360,6 +259,7 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="js/magnificpopup.js"></script>
 
     <script src="js/owl.carousel.js"></script>
 
@@ -367,6 +267,7 @@
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/portfolioimg.js"></script>
+     <script type="text/javascript" src="js/modal.js"></script>
     <script type="text/javascript" src="js/isotope.js"></script>
 
   </body>

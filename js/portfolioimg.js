@@ -78,6 +78,7 @@ var portfolioimg = [
 	noteone: 'Brochure',
 	notetwo: '28 page brochure',
 	popup: 'xxxx',
+	imgs: ['http://static1.squarespace.com/static/53a9b17de4b0b4cc4829b1cf/53a9c6b7e4b08c1a725d4f53/53a9c6d0e4b0ba352f67c940/1403635409434/Xiaflex_2_4_mu.jpg', 'http://static1.squarespace.com/static/53a9b17de4b0b4cc4829b1cf/53a9c6b7e4b08c1a725d4f53/53a9c6d0e4b08c1a725d4f82/1403635409528/Xiaflex_2_3_mu.jpg', 'http://static1.squarespace.com/static/53a9b17de4b0b4cc4829b1cf/53a9c6b7e4b08c1a725d4f53/53a9c6d0e4b08c1a725d4f84/1403635409299/Xiaflex_2_2_mu.jpg'],
 	desc: 'xxxx'
 	},
 	{
@@ -96,6 +97,7 @@ var portfolioimg = [
 	noteone: 'Record Artwork',
 	notetwo: '7\" record',
 	popup: 'xxxx',
+	imgs: ['http://static1.squarespace.com/static/53a9b17de4b0b4cc4829b1cf/53a9cf7ee4b07db2cfa19bfe/53a9cf9ce4b077fee360a24e/1403637682822/TAJ1.jpg', 'http://static1.squarespace.com/static/53a9b17de4b0b4cc4829b1cf/53a9cf7ee4b07db2cfa19bfe/53a9cf9ce4b077fee360a250/1403637669201/TAJ2.jpg', 'http://static1.squarespace.com/static/53a9b17de4b0b4cc4829b1cf/53a9cf7ee4b07db2cfa19bfe/53a9cf9ce4b07b097d155c87/1403637668865/VelocityAmberCVR.jpg', 'http://static1.squarespace.com/static/53a9b17de4b0b4cc4829b1cf/53a9cf7ee4b07db2cfa19bfe/53a9cf9ce4b07b097d155c89/1403637681638/Label_Art.jpg'],
 	desc: 'xxxx'
 	},
 	{
