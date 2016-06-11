@@ -74,9 +74,10 @@
     <div id="tf-home" class="text-center">
         
             <div class="content top">
-                <h2>Welcome to the online portfolio of</h2>
+                
             
                 <h1 class="color name"> Greg Swanson</h1>
+                <h2><span class="subTitleColor">Web Developer</span> | <span class="subTitleColor">Graphic Designer</span></h2>
                 <a href="#tf-about" class="fa fa-angle-double-down page-scroll"></a>
             </div>
         
@@ -111,18 +112,10 @@
                 </div>
                 <div class="col-md-8 aboutPadding">
                    
-                        <p class="intro">I’m Greg, a graphic designer, musician, amateur gardener, and most recently, web developer. I have started this new journey by attending Rutgers Coding Bootcamp in New Brunswick, New Jersey. I have an endless list of hobbies including: reading, playing music, collecting records, running, and learning to make plant-based cuisine.</p>
-                        <ul class="about-list">
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>Currently Reading:</strong><em>"AWOL on the Appalachian Trail"</em> by David "AWOL" Miller
-                            </li>
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>Currently Learning:</strong> HTML, CSS, Bootstrap, JavaScript
-                            </li>
-                           
-                        </ul>
+                        <p class="intro">I’m Greg, a graphic designer, musician, amateur gardener, and most recently, web developer. My newest journey began by attending Rutgers Coding Bootcamp, a full-stack, intensive, web development program in New Brunswick, New Jersey. I have experience in pharmaceutical, engineering, insurance, media, education, and music industries. I have demonstrated expertise in creative concept development, design solutions, print/online marketing, branding, project management, and client/vendor relations, design software, and web frameworks </p>
+                        <p class="intro">
+                                <span class="fa fa-plus-square"></span>
+                                <strong>Current Technologies: </strong>HTML5/CSS3, JavaScript, JQuery, Bootstrap, Node.js, Express, MySQL, MongoDB, Git, API/JSON, Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Acrobat, QuarkXpress, Adobe Dreamweaver, Adobe Captivate, Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Camtasia Studio, Articulate Presenter, Articulate Quizmaker, Articulate Storyline
                         </div>
                     </div>
                 </div>
@@ -175,28 +168,31 @@
                         </div>
                         
 
-                    <form>
+                    <form id="ajax-contact" method="post" action="js/mailer.php">
                         <div class="row">
                             <div class="col-md-6">
+
                                 <div class="form-group">
-                                    <label for="inputName">Name</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="John Smith">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="John Smith">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="inputEmail">Email</label>
-                                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="example@gmail.com">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputMessage">Message</label>
-                            <textarea class="form-control" rows="10"></textarea>
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="10"></textarea>
                         </div>
                         
                         <button type="submit" class="btn tf-btn btn-default">Submit</button>
                     </form>
+                    <br>
+                    <div id="form-messages"></div>
 
                 </div>
             </div>
@@ -241,8 +237,10 @@
                                 
                             <div class="col-xs-4"> 
                                 <div id="modalTitle"></div>
+                                <div id="modalSubTitle"></div>
                                 <div id="modalDes"></div>
                                 <div id="modalTech"></div>
+                                <div id="modalSite"></div>
                             </div>
                         </div>
                 </div>
@@ -269,6 +267,8 @@
     <script type="text/javascript" src="js/portfolioimg.js"></script>
      <script type="text/javascript" src="js/modal.js"></script>
     <script type="text/javascript" src="js/isotope.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+
 
   </body>
 </html>
