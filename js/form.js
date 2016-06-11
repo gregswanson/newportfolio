@@ -1,4 +1,4 @@
-$(window).load(function() {
+$(function() {
     // Get the form.
     var form = $('#ajax-contact');
 
@@ -7,10 +7,10 @@ $(window).load(function() {
     
 
     // Set up an event listener for the contact form.
-    $(form).submit(function(event) {
+	$(form).submit(function(event) {
     // Stop the browser from submitting the form.
     event.preventDefault();
-    alert("hello");
+
     // TODO
     var formData = $(form).serialize();
 
@@ -20,7 +20,7 @@ $(window).load(function() {
     type: 'POST',
     url: $(form).attr('action'),
     data: formData
-    }).done(function(response) {
+	}).done(function(response) {
     // Make sure that the formMessages div has the 'success' class.
     $(formMessages).removeClass('error');
     $(formMessages).addClass('success');
@@ -32,7 +32,7 @@ $(window).load(function() {
     $('#name').val('');
     $('#email').val('');
     $('#message').val('');
-    }).fail(function(data) {
+	}).fail(function(data) {
     // Make sure that the formMessages div has the 'error' class.
     $(formMessages).removeClass('success');
     $(formMessages).addClass('error');
@@ -45,4 +45,5 @@ $(window).load(function() {
     }
 });
 
+});
 });
