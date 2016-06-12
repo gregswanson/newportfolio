@@ -16,13 +16,13 @@ $('#lightbox').on( 'click', '.hover-text', function() {
    $('#modalTech').html('<p class="modalText">' + portfolioimg[modalID].tech +'</p>');
 
    if(portfolioimg[modalID].site){
-   	$('#modalSite').html('<a href="'+ portfolioimg[modalID].site +'"  target="_blank" class="modalText">Visit the site  <span class="fa fa-external-link-square"></span></a>');
+   	$('#modalSite').html('<p><a href="'+ portfolioimg[modalID].site +'"  target="_blank" class="modalText">Visit the site  <span class="fa fa-external-link-square"></span></a></p>');
    } else {
    	$('#modalSite').empty();
    }
 
    for(var i = 0; i < portfolioimg[modalID].imgs.length; i++) {
-   	$('#modalImages').append('<div><img src="' + portfolioimg[modalID].imgs[i] + '" class=" modalImage image-responsive"></div>');
+   	$('#modalImages').append('<div><img src="' + portfolioimg[modalID].imgs[i] + '" class="modalImage image-responsive"></div>');
    };
 
  	
